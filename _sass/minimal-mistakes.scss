@@ -35,3 +35,70 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+
+
+/* ==========================================================================
+    Code block customization 
+   ========================================================================== */
+
+
+div.highlighter-rouge,
+figure.highlight {
+    position: relative;
+    margin-bottom: 1.5em;
+    background: #1e1e1e;
+    border-radius: 6px;
+    /* حواف أصغر لتناسب الحجم */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+
+    /* منطقة الأكواد */
+    pre.highlight {
+        margin: 0;
+        padding: 2.2em 1.2em 1em;
+        /* تقليل المسافات الداخلية */
+        font-family: "Fira Code", Monaco, Consolas, monospace;
+        font-size: 0.8rem;
+        /* تصغير الخط */
+        line-height: 1.5;
+        /* تقليل تباعد الأسطر */
+        border: none;
+        background: transparent;
+        overflow-x: auto;
+    }
+
+    /* شريط التمرير نحيف جداً */
+    pre::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    pre::-webkit-scrollbar-thumb {
+        background: rgba($primary-color, 0.2);
+        border-radius: 10px;
+    }
+}
+
+/* دوائر الـ Terminal صغرناها لتناسب المقاس الجديد */
+div.highlighter-rouge::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    background: #ff5f56;
+    border-radius: 50%;
+    box-shadow: 15px 0 0 #ffbd2e, 30px 0 0 #27c93f;
+    z-index: 10;
+}
+
+/* الكود داخل النص - مقاس متناسق وبدون خلفية */
+code {
+    padding: 0;
+    background-color: transparent;
+    // color: $primary-color;
+    font-size: 0.85em;
+    /* أصغر من النص العادي بشوي */
+    font-family: inherit;
+}

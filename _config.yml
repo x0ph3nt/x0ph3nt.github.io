@@ -22,7 +22,7 @@ title                    : "x0ph3nt"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Abdulaziz Alsalahi"
-description              : "Penetration Tester,Ethical Hacker, CTF Player."
+description              : "Penetration Tester | Ethical Hacker | CTF Player."
 url                      : https://x0ph3nt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : x0ph3nt  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -116,7 +116,7 @@ analytics:
 author: 
   name             : "Abdulaziz Alsalahi"
   avatar           : /assets/img/logo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Penetration Tester, Red Teamer, Ethical Hacker."
+  bio              : "Penetration Tester, Ethical Hacker, CTF Player, CAPT, CRTA⏳"
   location         : 
   email            :
   links:
