@@ -1,9 +1,9 @@
 /* ==========================================================================
-   Dark skin
+  Dark skin
    ========================================================================== */
 
 /* Colors */
-$background-color: #252a34 !default;
+$background-color: #0b0e11 !default;
 $text-color: #eaeaea !default;
 $primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
@@ -28,3 +28,31 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+
+
+// /* ==========================================================================
+//   Dark skin – Offensive Security style
+//    ========================================================================== */
+
+// /* Colors */
+// $background-color: #0b0e11 !default;          // خلفية سوداء فحمية
+// $text-color: #e5e7eb !default;                // نص رمادي فاتح
+// $primary-color: #e10600 !default;             // OffSec Red 🔴
+
+// $border-color: mix(#ffffff, $background-color, 12%) !default;
+
+// $code-background-color: #111418 !default;     // خلفية الكود
+// $code-background-color-dark: #0d0f13 !default;
+
+// $form-background-color: #111418 !default;
+// $footer-background-color: #080a0d !default;
+
+// $link-color: $primary-color !default;
+// $link-color-hover: mix(#ffffff, $primary-color, 20%) !default;
+// $link-color-visited: mix(#000000, $primary-color, 25%) !default;
+
+// $masthead-link-color: $text-color !default;
+// $masthead-link-color-hover: $primary-color !default;
+
+// $navicon-link-color-hover: mix(#ffffff, $background-color, 15%) !default;
