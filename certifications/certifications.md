@@ -239,27 +239,28 @@ author_profile: true
       </div>
     </div>
 
-    <div class="cert-card">
-      <div class="cert-ribbon-in-progress">ONGOING</div>
+
+      <div class="cert-card">
+      <div class="cert-ribbon">CERTIFIED</div>
 
       <div class="cert-img-wrapper">
-        <img src="{{ '/assets/img/certs/IN_PROGRESS.png' | relative_url }}" alt="CRTA">
+        <img src="{{ '/assets/img/certs/crta.jpg' | relative_url }}" alt="CAPT">
       </div>
 
-      <div class="cert-info">
-        <span class="cert-badge">Cyberwarfare</span>
+     <div class="cert-info">
+        <span class="cert-badge">Cyberwarfare Labs</span>
         <span class="cert-name">CRTA</span>
-        <span class="cert-title">Certified Red Team Analyist</span>
-        <span class="cert-date">Issued: UNKNOWN</span>
-        <span class="cert-id">ID: UNKNOWN</span>
+        <span class="cert-title">Certified Red Team Analyst</span>
+        <span class="cert-date">Issued: Feb 02, 2026</span>
+        <span class="cert-id">ID: 6998c7dbba8390c68e9de114</span>
 
-        <a href="{{ '/assets/img/certs/IN_PROGRESS.png' | relative_url }}" target="_blank" class="view-link">
+        <a href="{{ '/assets/img/certs/crta.jpg' | relative_url }}" target="_blank" class="view-link">
           View Certification
         </a>
       </div>
     </div>
 
-    <!-- <div class="cert-card">
+     <div class="cert-card">
       <div class="cert-ribbon-in-progress">ONGOING</div>
 
       <div class="cert-img-wrapper">
@@ -276,7 +277,7 @@ author_profile: true
           View Certification
         </a>
       </div>
-    </div> -->
+    </div>
 
   </div>
 </div>
